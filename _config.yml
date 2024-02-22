@@ -96,7 +96,7 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: https://github.com/Linhieng/tmp # <gh-username>/<repo>
+    repo: Linhieng/tmp # <gh-username>/<repo>
     repo_id: R_kgDOLIHLsQ
     category: Announcements
     category_id: DIC_kwDOLIHLsc4Cda7k
