@@ -2,7 +2,7 @@
 layout: post
 title: 终端命令提示符配置
 category: CLI
-tags: ternimal,style,shell
+tags: [ternimal, style, shell]
 ---
 
 ## window
@@ -15,7 +15,7 @@ tags: ternimal,style,shell
 
 #### 风格：只显示当前目录
 
-```ps1
+```powershell
 function prompt {
     $p = Split-Path -leaf -path (Get-Location)
     "$p> " # 最后一个表达式默认就是返回值，所以这里省略了 return
