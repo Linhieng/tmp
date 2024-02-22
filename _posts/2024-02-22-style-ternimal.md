@@ -13,7 +13,7 @@ tags: [ternimal, style, shell]
 
 > 如果提示“无法加载文件 ...，因为在此系统上禁止运行脚本”。尝试执行 `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser` 命令解决。
 
-#### 风格：只显示当前目录
+### 风格：只显示当前目录
 
 ```powershell
 function prompt {
@@ -22,7 +22,7 @@ function prompt {
 }
 ```
 
-#### 风格：修改命令提示符的颜色
+### 风格：修改命令提示符的颜色
 
 ```powershell
 function prompt {
@@ -33,7 +33,7 @@ function prompt {
 
 更多颜色，可通过运行 `Get-PSReadLineOption` 命令查看。
 
-#### 风格：正则替换路径中的 `\` 为 `/`
+### 风格：正则替换路径中的 `\` 为 `/`
 
 ```powershell
 function prompt {
@@ -47,7 +47,7 @@ function prompt {
 
 参考自 [正则替换字符串](https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_comparison_operators#replacement-operator)
 
-#### 风格：换行 + 彩色 + 判断是否管理员
+### 风格：换行 + 彩色 + 判断是否管理员
 
 参考自 [about_Prompts](https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_prompts?view=powershell-7.3) 和 [stack overflow](https://stackoverflow.com/questions/37367460/how-achieve-a-two-line-prompt)
 
@@ -66,7 +66,7 @@ function prompt {
 }
 ```
 
-#### 风格：显式当前所在 git 分支
+### 风格：显式当前所在 git 分支
 
 参考 [stack Overflow](https://stackoverflow.com/questions/1287718/how-can-i-display-my-current-git-branch-name-in-my-powershell-prompt)
 
@@ -110,7 +110,7 @@ function prompt {
 }
 ```
 
-#### 风格：管理员+git分支+标签+子目录+空提交
+### 风格：管理员+git分支+标签+子目录+空提交
 
 ```powershell
 function parseGitPosition {
@@ -218,7 +218,7 @@ function prompt {
 
 ```
 
-#### [oh my posh](https://ohmyposh.dev/) 命令行提示符主题
+### [oh my posh](https://ohmyposh.dev/) 命令行提示符主题
 
 基本步骤如下：
 
