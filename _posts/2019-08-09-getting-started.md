@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Schick Technologies USBCam2 Intraoral Camera Appears In Device Manager As USB2820 Device
 ---
 
