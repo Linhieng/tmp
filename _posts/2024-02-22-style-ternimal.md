@@ -24,7 +24,7 @@ function prompt {
 
 #### 风格：修改命令提示符的颜色
 
-```ps1
+```powershell
 function prompt {
     $promptString = Split-Path -leaf -path (Get-Location)
     "$([char]0x1b)[92m" + "$promptString" + "$([char]0x1b)[91m" + " > "
@@ -35,7 +35,7 @@ function prompt {
 
 #### 风格：正则替换路径中的 `\` 为 `/`
 
-```ps1
+```powershell
 function prompt {
     $full_path = "/" + (Get-Location) -replace ":?\\", "/"
     echo (
@@ -51,7 +51,7 @@ function prompt {
 
 参考自 [about_Prompts](https://learn.microsoft.com/zh-cn/powershell/module/microsoft.powershell.core/about/about_prompts?view=powershell-7.3) 和 [stack overflow](https://stackoverflow.com/questions/37367460/how-achieve-a-two-line-prompt)
 
-```ps1
+```powershell
 function prompt {
     $identity = [Security.Principal.WindowsIdentity]::GetCurrent()
     $principal = [Security.Principal.WindowsPrincipal] $identity
@@ -70,7 +70,7 @@ function prompt {
 
 参考 [stack Overflow](https://stackoverflow.com/questions/1287718/how-can-i-display-my-current-git-branch-name-in-my-powershell-prompt)
 
-```ps1
+```powershell
 function Write-BranchName () {
     try {
         $branch = git rev-parse --abbrev-ref HEAD
@@ -112,7 +112,7 @@ function prompt {
 
 #### 风格：管理员+git分支+标签+子目录+空提交
 
-```ps1
+```powershell
 function parseGitPosition {
     <#
     可能的返回值：
