@@ -1,5 +1,9 @@
 # The Site Configuration
 
+show_drafts: true
+
+# ----------------------------- #
+
 # Import the theme
 theme: jekyll-theme-chirpy
 
