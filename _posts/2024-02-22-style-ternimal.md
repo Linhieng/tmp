@@ -248,10 +248,6 @@ function prompt {
 
 ## linux
 
-
-
-## prompt
-
 ```bash
 my_bash_prompt() {
     git_branch() {
