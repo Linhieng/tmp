@@ -1,7 +1,10 @@
 ---
 layout: post
-title: Automating Base Configuration in a Cisco Networking Homelab
+date: 2019-08-08 11:33:00 +0800
+title: 呼啦呼啦呼
 ---
+
+
 
 Let’s face it: resetting Cisco devices in your homelab to factory defaults is painful. The process of plugging in a console cable, erasing the contents of the NVRAM, reloading the device, then initially configuring the device so that you can remotely access it is bearable for a single device, but most networking homelabs have six devices, sometimes more! Modern Cisco devices solve this issue with dedicated management interfaces that retain their configuration even after a write erase command, but these devices tend to be outside the budget of somebody studying for their CCNA or CCNP. One common solution is a router acting as a terminal server, which uses reverse telnet to remotely console into devices using the console or aux ports; however, the total cost of such a project easily can be hundreds of dollars and can be difficult for somebody new to Cisco devices to configure.
 
