@@ -11,10 +11,10 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: 首页
-  categories: 分类
-  tags: 标签
-  archives: 归档
-  about: 关于
+  02-categories: 分类
+  03-tags: 标签
+  04-archives: 归档
+  05-about: 关于
 
 # the text displayed in the search bar & search results
 search:
@@ -29,9 +29,9 @@ panel:
 
 #  The liquid date format › http://strftime.net/
 date_format:
-  tooltip: '%F, %R %z'
+  tooltip: '%Y年%m月%d日，%R'
   post:
-    long: '%F'
+    long: '%Y年%m月%d日，%R'
     short: '%m-%d'
     archive_month: '%m月'
 
@@ -50,7 +50,7 @@ copyright:
 meta: 本站由 :PLATFORM 生成，采用 :THEME 主题。
 
 not_found:
-  statment: 抱歉，我们放错了该 URL，或者它指向了不存在的内容。
+  statment: 404 抱歉，我们放错了该 URL，或者它指向了不存在的内容。
   hint_template: :HEAD_BAK尝试再次查找它，或在:ARCHIVES_PAGE上搜索它。
   head_back: 返回主页
   archives_page: 归档页面
@@ -81,7 +81,7 @@ post:
       title:  分享链接
       succeed: 链接已复制！
   # pinned prompt of posts list on homepage
-  pin_prompt: 顶置
+  pin_prompt: 置顶
 
 # categories page
 categories:
