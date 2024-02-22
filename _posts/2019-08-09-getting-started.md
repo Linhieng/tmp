@@ -1,6 +1,4 @@
 ---
-layout: post
-title: ttt?
 ---
 
 测试2
