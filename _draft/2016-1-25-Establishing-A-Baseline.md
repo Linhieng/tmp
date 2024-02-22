@@ -1,6 +1,4 @@
 ---
-layout: post
-title: Establishing A Baseline
 ---
 
 Lao Tzu, a Chinese philosopher, once said that “the journey of a thousand miles starts with a single step.” Although the journey of my homelab started over a year ago, it has remained largely undocumented. Blog posts like these (in combination with an internal wiki that I have set up) strive towards resolving that issue, as well as allowing others a glimpse into the infrastructure I have created and learn something from it (or, as is more likely, tell me that what I’m trying to do is very, *very* wrong.)

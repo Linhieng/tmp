@@ -1,6 +1,4 @@
 ---
-layout: post
-title: A Homelab Update!
 ---
 
 A lot has changed with my homelab since my first post, and unfortunately, my website has remained devoid of any updates. That is definitely going to change during 2017! To start off, let’s take a look at the latest lab topology, then I’ll explain what has changed since the previous update and my rationale behind certain decisions.

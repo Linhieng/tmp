@@ -1,6 +1,4 @@
 ---
-layout: post
-title: Cisco Nexus 7700 – Line card’s Status LED flashing red instantly on insertion
 ---
 
 A few weeks ago, a coworker of mine asked for my assistance with an odd Nexus 7700 issue. He brought me over to an N77-C7702, where I found a SUP2E humming along while an N77-F348XP-23 line card sat above it. The line card’s Status LED was blinking red, indicating its unhappiness with the current situation.

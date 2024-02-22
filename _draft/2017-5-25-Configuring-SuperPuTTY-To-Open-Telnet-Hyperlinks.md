@@ -1,6 +1,4 @@
 ---
-layout: post
-title: Configuring SuperPuTTY to open web browser telnet hyperlinks
 ---
 
 I recently installed SuperPuTTY and spent more time than I should have configuring it so that telnet hyperlinks (such as telnet://10.0.0.1) will automatically open a SuperPuTTY tab. This guide seeks to assist others with similar desires.

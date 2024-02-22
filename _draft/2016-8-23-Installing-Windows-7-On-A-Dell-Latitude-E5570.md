@@ -1,6 +1,4 @@
 ---
-layout: post
-title: Installing/Reinstalling Windows 7 on a Dell Latitude E5570
 ---
 
 I encountered an issue with a Dell Latitude E5570 where Windows 7 reported that the laptop’s BCD was either missing or corrupted. Upon attempting to rebuild the BCD using Windows 7 installation media, I received an odd error reporting that “The requested system device cannot be found”, even when it successfully detected the Windows installation of the laptop’s hard drive. I also noticed that in DISKPART, my installation media was not showing up as a disk (only the hard drive of the laptop appeared). At first, I believed that my USB 3.0 flash drive might be causing some issues, so I attempted to swap to USB 2.0 installation media – this did not help either.

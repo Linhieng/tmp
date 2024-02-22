@@ -1,6 +1,4 @@
 ---
-layout: post
-title: Schick Technologies USBCam2 Intraoral Camera Appears In Device Manager As USB2820 Device
 ---
 
 I’ve encountered an issue recently with a Schick Technologies USBCam2 intraoral camera appearing as a USB2820 device in Device Manager when plugged into a Dell Vostro 1520 laptop. I am not sure at this time if this is an issue between this particular laptop and the intraoral camera, or if this issue can occur with other laptop models as well. For me, this issue occurred regardless of which USB port the camera was plugged into. When the camera is acting under the USB2820 device, it does not display any video within dental practice management software or image capturing software (in this case, I was working with Eaglesoft.)
